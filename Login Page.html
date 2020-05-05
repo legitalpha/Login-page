@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<head>
+<title>Login Page</title>
+<style>
+
+
+h1{
+	color: white;
+	font-weight: 500;
+
+}
+.container{
+	width: 350px;
+	position: absolute;
+	top: 50%;
+	left: 50%;  	
+	background-color: #000000;
+	text-align: center;
+	padding: 40px;
+	border-radius: 20px;
+	transform: translate(-50%, -50%);
+	box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.9)
+	
+	
+}
+.container input[type="text"], .container input[type="password"]{
+	
+	background: none;
+	display: block;
+	margin: 20px auto;
+	border-width: 2px;
+	border-color: #505487;
+	border-radius: 40px;
+	text-align: center;
+	height: 30px;
+	width: 200px;
+	border-style: solid;
+	color: white;
+	outline: none;
+	transition: 0.25s;
+}
+
+.container input[type="text"]:focus, .container input[type="password"]:focus{
+	width: 280px;
+	border-color: #2ECC71;
+}
+
+.container input[type="submit"]{
+	background: none;
+	display: block;
+	margin: 20px auto;
+	border-width: 2px;
+	border-color: #505487;
+	border-radius: 40px;
+	text-align: center;
+	height: 30px;
+	width: 120px;
+	border-style: solid;
+	color: white;
+	outline: none;
+	transition: 0.25s;
+	cursor: pointer;
+
+}
+
+.container input[type="submit"]:focus,{
+	width: 180px;
+	border-color: #2ECC71;
+}
+
+form{
+	margin: auto;
+	
+	
+
+	
+}
+body{
+	background-color: #505487;
+	margin: 0%;
+	padding: 0%;
+	font-family: sans-serif;
+}
+
+</style>
+<title>
+Button
+</title>
+</head>
+
+<body>
+<form class="container">
+<h1> LOGIN </h1>
+	<input type="text" required placeholder="Username">
+	<input type="password" required placeholder="Password">
+	<input type="submit" value="Login">
+</form>
+</body>
+</html>
